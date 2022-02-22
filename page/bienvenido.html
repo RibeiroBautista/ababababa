@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    
+    <style>
+        body {
+            background-color: blanchedalmond;
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .containerRespuestas {
+            width: 50%;
+            height: auto;
+            border: 2px solid grey;
+            padding: 5px;
+        }
+
+        .respuestas {
+            background-color: rgba(255, 0, 0, 0.493);
+            border: 1px solid black;
+            border-radius: 10%;
+            padding: 5px;
+        }
+        .respuestas:hover {
+            background-color: rgba(0, 255, 13, 0.493);
+            border: 1px solid black;
+            border-radius: 10%;
+            padding: 5px;
+        }
+
+    </style>
+
+    
+        <div class="container">
+            <div>
+                <h1>¡Hola Mundo!</h1>
+                <p>Bienvenidos a mi página web</p>
+            </div>
+        </div>
+    
+    <div class="containerRespuestas">
+        <p><strong>aquí apareceran tus respuestas del juego preguntados.</strong></p>
+    </div>
+
+    <div class="click">
+        <h2><strong>Hiciste click en...</strong></h2>
+    </div>
+    
+    </style>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../script/preguntados.js"></script>
+    <script src="../script/main.js"></script>
+    <script src="../script/moneda.js"></script>
+    
+</body>
+</html>
